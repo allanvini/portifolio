@@ -1,0 +1,14 @@
+.section-container {
+    display: flex;
+    width: 99vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    @media(max-width: 739px){
+        margin-bottom: 150px;
+        img{
+            display: none;
+        }
+    }
+}

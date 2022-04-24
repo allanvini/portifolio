@@ -1,0 +1,19 @@
+.card{
+    // width: 250px;
+    height: 350px;
+    background-color:  #00000099;
+    clip-path: polygon(15% 0, 100% 0, 100% 90%, 85% 100%, 0 100%, 0 10%);
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    a{
+        cursor: pointer;
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+}
