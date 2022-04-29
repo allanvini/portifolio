@@ -1,19 +1,23 @@
-.card{
+.card {
     // width: 250px;
     height: 350px;
-    background-color:  #00000099;
+    background-color: #0000004b;
     clip-path: polygon(15% 0, 100% 0, 100% 90%, 85% 100%, 0 100%, 0 10%);
     padding: 10px 10px 10px 20px;
     box-sizing: border-box;
     color: white;
-    transition: all .3s;
+    transition: all 0.3s;
     cursor: pointer;
     user-select: none;
     text-decoration: none;
-    a{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+
+    a {
         cursor: pointer;
     }
-    &:hover{
+    &:hover {
         transform: scale(1.1);
     }
 }

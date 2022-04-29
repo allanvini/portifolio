@@ -1,9 +1,9 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 115px);
+    grid-template-columns: repeat(auto-fill, 75px);
     width: 100%;
     grid-gap: 25px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     svg {
         width: 50px;
