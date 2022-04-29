@@ -13,10 +13,6 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
-
-    a {
-        cursor: pointer;
-    }
     &:hover {
         transform: scale(1.1);
     }
