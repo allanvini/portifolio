@@ -7,6 +7,7 @@ import Menu from "./components/menu/menu";
 import VideoBanner from "./components/videoBanner/videoBanner";
 import IconsLine from "./components/iconsLine/iconsLine";
 import ProjectCard from "./components/projectCard/projectCard";
+import Footer from "./components/footer/footer";
 
 import backgroundVideo from './assets/images/background.mp4';
 
@@ -28,6 +29,10 @@ import MongoDB from "./assets/icons/mongodb";
 import Email from './assets/icons/email';
 import Whatsapp from './assets/icons/whatsapp';
 import Resume from "./assets/icons/resume";
+import Azure from "./assets/icons/azure";
+import RabbitMQ from "./assets/icons/RabbitMQ";
+import Kafka from "./assets/icons/Kafka";
+import PostgreSQL from "./assets/icons/Postgre";
 
 function App() {
 
@@ -71,12 +76,16 @@ function App() {
               <ReactJS />
               <MongoDB />
               <NextJS />
+              <Azure />
+              <RabbitMQ />
+              <Kafka />
+              <PostgreSQL />
             </IconsGrid>
           </SectionItem>
         </Section>
 
         <Section id="projetos">
-          <SectionItem style={{maxWidth: '75%'}}>
+          <SectionItem style={{ maxWidth: '75%' }}>
             <h1>Projetos</h1>
             <p>Abaixo temos os repositórios de alguns dos projetos que ja realizei utilizando as skills citadas acima, alguns projetos não podem estar aqui pois são de código fechado.</p>
             <CardsContainer>
@@ -97,7 +106,7 @@ function App() {
               </ProjectCard>
             </CardsContainer>
           </SectionItem>
-          
+
         </Section>
 
         <Section id="contato">
@@ -110,8 +119,7 @@ function App() {
             <h1>Mais sobre mim / Contato</h1>
             <p>
               Allan Vinicius<br />
-              26 anos<br />
-              Solteiro<br />
+              27 anos<br />
               Natural de Campinas-SP<br />
               Residente em Hortolândia-SP<br />
               Aberto a oportunidades: <b>Sim</b><br />
@@ -130,14 +138,14 @@ function App() {
               <a target="_blank" href="https://github.com/allanvini">
                 <Github />
               </a>
-              <a target="_blank" href="https://drive.google.com/file/d/1yx_LFquCcWdJ6SIp4qHg_NLD58hvlzt9/view?usp=sharing">
+              <a target="_blank" href="https://drive.google.com/file/d/1ip4OGLOVZke-RBBtE6KfhzWZKBeHB0lB/view?usp=share_link">
                 <Resume />
               </a>
             </IconsLine>
           </SectionItem>
 
         </Section>
-
+      <Footer/>
       </ContentContainer>
     </>
   )
