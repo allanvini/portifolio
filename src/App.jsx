@@ -33,6 +33,7 @@ import Azure from "./assets/icons/azure";
 import RabbitMQ from "./assets/icons/RabbitMQ";
 import Kafka from "./assets/icons/Kafka";
 import PostgreSQL from "./assets/icons/Postgre";
+import NestJS from "./assets/icons/nestjs";
 
 function App() {
 
@@ -79,7 +80,9 @@ function App() {
               <Azure />
               <RabbitMQ />
               <Kafka />
+              <NestJS />
               <PostgreSQL />
+              
             </IconsGrid>
           </SectionItem>
         </Section>
