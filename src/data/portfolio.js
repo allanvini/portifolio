@@ -31,19 +31,19 @@ export const technologyGroups = [
   {
     title: 'Front-end',
     description: 'Interfaces claras, responsivas e pensadas para quem usa.',
-    items: ['React', 'Next.js', 'TypeScript', 'JavaScript'],
+    items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Flutter', 'HTML', 'CSS', 'Sass'],
     icon: 'window',
   },
   {
     title: 'Back-end & dados',
     description: 'A lógica e as conexões que fazem a aplicação acontecer.',
-    items: ['Node.js', 'NestJS', 'Java', 'PostgreSQL', 'MongoDB'],
+    items: ['Node.js', 'NestJS', 'Java', 'PostgreSQL', 'MongoDB', 'Python', 'Redis', 'Docker'],
     icon: 'layers',
   },
   {
     title: 'Infra & integrações',
     description: 'Serviços, mensagens e ferramentas que conectam o todo.',
-    items: ['AWS', 'Azure', 'RabbitMQ', 'Kafka', 'Git'],
+    items: ['AWS', 'Azure', 'RabbitMQ', 'Kafka', 'Git', 'GCP', 'Terraform', 'Kubernetes'],
     icon: 'nodes',
   },
 ];
