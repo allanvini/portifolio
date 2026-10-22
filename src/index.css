@@ -1084,8 +1084,9 @@ h2 em {
 }
 
 .experience-logo {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   width: 130px;
   height: 68px;
@@ -1098,6 +1099,8 @@ h2 em {
 .experience-logo img {
   width: 100%;
   height: 100%;
+  min-width: 0;
+  min-height: 0;
   object-fit: contain;
 }
 
@@ -1107,7 +1110,6 @@ h2 em {
 
 .experience-logo--netglobe img {
   object-fit: cover;
-  margin-top: -30px
 }
 
 .experience-item h3 {
