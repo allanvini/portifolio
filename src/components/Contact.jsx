@@ -27,7 +27,7 @@ export default function Contact() {
       <div className="container contact-inner">
         <div className="contact-top">
           <p className="eyebrow">
-            <span className="section-number">04 /</span> VAMOS CONVERSAR
+            <span className="section-number">05 /</span> VAMOS CONVERSAR
           </p>
           <Icon name="asterisk" className="contact-star" />
         </div>

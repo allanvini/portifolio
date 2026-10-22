@@ -13,7 +13,7 @@ export default function Technologies() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">
-              <span className="section-number">03 /</span> REPERTÓRIO TÉCNICO
+              <span className="section-number">04 /</span> REPERTÓRIO TÉCNICO
             </p>
             <h2 id="skills-title">
               As ferramentas<br /><em>de cada solução.</em>
